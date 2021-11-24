@@ -43,7 +43,7 @@ for feature encoder training or you may train the regressor using the following 
 For this scenario, the pre-trained feature encoder has to be downloaded and saved to the ```./FeatureEncoderPreTrained``` folder before you may train the regressor. Please download this pre-trained feature encoder model [from this link](https://1drv.ms/u/s!Ai8vR3oqUKxTbXv4m0nnEmVVMPI?e=lwj9XO).
 
 ## Train the feature encoder, regressor and perform inference using newly trained models
-You may either run the feature encoding training, regressor training and inference altogether. In this scenario, the feature encoder and the regressor have to be trained before inference can be done. The following bash script (Run_All.sh) accomplishes that and can be run from the root directory:
+You may either run the feature encoding training, regressor training and inference all together. In this scenario, the feature encoder and the regressor have to be trained before inference can be done. The following bash script (Run_All.sh) accomplishes that and can be run from the root directory:
 ```
 ./Run_All.sh
 ```
