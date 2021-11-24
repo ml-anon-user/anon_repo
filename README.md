@@ -20,7 +20,7 @@ You may either clone this repo and download the dataset and pre-trained feature 
 # How to run
 
 ## Dataset
-Please download the dataset from the following OneDrive link [located here](https://1drv.ms/u/s!Ai8vR3oqUKxTa7IgFALZbzm0rHo?e=yUzVP0).
+Please download the dataset from the following link [located here](https://1drv.ms/u/s!Ai8vR3oqUKxTa7IgFALZbzm0rHo?e=yUzVP0).
 
 Thereafter, unzip and place the Train, Test and Validation folders within the ```Dataset``` folder such that the paths for the Train, Test and Validation sets are ```/Dataset/Train```, ```Dataset/Test```, ```Dataset/Validation```.
 
