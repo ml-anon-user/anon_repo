@@ -24,7 +24,7 @@ Please download the dataset from the following link [located here](https://1drv.
 
 Thereafter, unzip and place the Train, Test and Validation folders within the ```Dataset``` folder such that the paths for the Train, Test and Validation sets are ```/Dataset/Train```, ```Dataset/Test```, ```Dataset/Validation```.
 
-## Run inference only (do not train new regressor)
+## Run inference only (without training a new regressor)
 To only run inference, please run the following bash command within the root directory:
 ```
 ./Run_Inference_Only.sh
