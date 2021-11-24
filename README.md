@@ -15,12 +15,12 @@ PyTorch 1.7.0
 
 # Download code + dataset + pre-trained models
 
-You may either clone this repo and download the dataset and pre-trained feature encoder model separately (see below) or download all code + dataset + pre-trained models [by following this link](https://1drv.ms/u/s!Ai8vR3oqUKxTcG25XBvPyykMIJ8?e=kDrtpo).
+You may either clone this repo and download the dataset and pre-trained feature encoder model separately (see below) or download all code + dataset + pre-trained models [by following this link](https://1drv.ms/u/s!Ai8vR3oqUKxTcG25XBvPyykMIJ8?e=GVZIFy).
 
 # How to run
 
 ## Dataset
-Please download the dataset from the following OneDrive link [located here](https://1drv.ms/u/s!Ai8vR3oqUKxTa7IgFALZbzm0rHo?e=fUAJ9y).
+Please download the dataset from the following OneDrive link [located here](https://1drv.ms/u/s!Ai8vR3oqUKxTa7IgFALZbzm0rHo?e=yUzVP0).
 
 Thereafter, unzip and place the Train, Test and Validation folders within the ```Dataset``` folder such that the paths for the Train, Test and Validation sets are ```/Dataset/Train```, ```Dataset/Test```, ```Dataset/Validation```.
 
@@ -40,7 +40,7 @@ for feature encoder training or you may train the regressor using the following 
 ```
 ./Run_Regressor_Training_Only.sh
 ```
-For this scenario, the pre-trained feature encoder has to be downloaded and saved to the ```./FeatureEncoderPreTrained``` folder before you may train the regressor. Please download this pre-trained feature encoder model [from this link](https://1drv.ms/u/s!Ai8vR3oqUKxTbXv4m0nnEmVVMPI?e=fMx43L).
+For this scenario, the pre-trained feature encoder has to be downloaded and saved to the ```./FeatureEncoderPreTrained``` folder before you may train the regressor. Please download this pre-trained feature encoder model [from this link](https://1drv.ms/u/s!Ai8vR3oqUKxTbXv4m0nnEmVVMPI?e=lwj9XO).
 
 ## Train the feature encoder, regressor and perform inference using newly trained models
 You may either run the feature encoding training, regressor training and inference altogether. In this scenario, the feature encoder and the regressor have to be trained before inference can be done. The following bash script (Run_All.sh) accomplishes that and can be run from the root directory:
